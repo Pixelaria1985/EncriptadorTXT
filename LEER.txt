@@ -1,0 +1,12 @@
+Crear entorno:
+python -m venv venv
+
+----------------------------------------------
+
+Crear archivo con extenciones usadas en la app:
+pip freeze > requirements.txt
+
+----------------------------------------------
+
+Instalar las extenciones del archivo "requirements.txt":
+pip install -r requirements.txt
